@@ -9,12 +9,14 @@ Error: Error encountered resolving symbol values statically. Calling function 'S
 ## Steps
 
 * Clone this repository
-* cd be/sdk
-* yarn link
-* cd ../../fe
-* yarn global add ionic cordova
-* yarn link "api-generator-sdk"
-* ionic cordova build browser --prod
+* `cd be/sdk`
+* `yarn link`
+* `cd ../../fe`
+* `yarn global add ionic cordova`
+* `yarn`
+* `yarn link "api-generator-sdk"`
+* `rm -R node_modules/api-generator-sdk/node_modules`
+* `ionic cordova build browser --prod`
 * boom
 
 
