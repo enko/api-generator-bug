@@ -9,7 +9,7 @@ Error: Error encountered resolving symbol values statically. Calling function 'S
 ## Steps
 
 * Clone this repository
-* `cd be/sdk`
+* `cd api-generator/be/sdk`
 * `yarn link`
 * `cd ../../fe`
 * `yarn global add ionic cordova`
